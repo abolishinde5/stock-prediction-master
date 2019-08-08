@@ -1,0 +1,22 @@
+/* Styles for stock lists */
+.stock-list {
+    color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.3);
+    text-decoration: none;
+    border: 2px solid #ffffff;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+    font-size: 1em;
+    margin-bottom: 1em;
+}
+
+.stock-list:hover {
+    margin-left: 0.5em;
+    font-size: 1.2em;
+}
+
+#stockList {
+    margin-top: 2em;
+}

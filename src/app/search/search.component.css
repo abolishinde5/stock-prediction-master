@@ -1,0 +1,22 @@
+.stock-type-search {
+    width: 90%;
+    border: none;
+    border-radius: 20px;
+    line-height: 3.5em;
+    outline: none;
+    padding-left: 1em;
+    margin-top: 1em;
+    background: rgba(255, 255, 255, 0.3);
+    color: #fff; }
+
+::placeholder { /* Firefox, Chrome, Opera */ 
+    color: #fff; }
+
+:-ms-input-placeholder {/* Internet Explorer 10-11 */ 
+    color: #fff; }
+
+::-ms-input-placeholder { /* Microsoft Edge */ 
+    color: #fff; }
+
+#search {
+    transform: translate(-3em, -0.1em); }

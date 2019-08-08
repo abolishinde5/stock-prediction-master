@@ -1,0 +1,7 @@
+ <!-- Search stock -->
+<section class="container-fluid text-center text-white">
+    <input type="text" #searchStock class="stock-type-search" placeholder="Search stock you want to predict">
+    <a (click)="search(searchStock.value)"> 
+        <img src="../assets/shared-icons/search-icon.svg" alt="Search" id="search" aria-label="Search icon">
+    </a>
+</section>

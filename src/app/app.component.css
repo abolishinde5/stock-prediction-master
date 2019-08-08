@@ -1,0 +1,17 @@
+/* Navbar */
+.navbar {
+    padding-top: 15px;
+}
+
+#user-dp {
+    border: 2px solid #ffffff;
+    border-radius: 100%;
+}
+
+/* Whole page background */
+#main-page-wrapper {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}

@@ -1,0 +1,6 @@
+<!-- Stock list view -->
+<div class="container text-white">
+    <a class="stock-list" *ngFor="let stock of this.stockList" (click)="showView(stock.value)">
+        <span #listText><strong>{{ stock.name }}</strong></span>
+    </a>
+</div>
